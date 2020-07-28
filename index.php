@@ -1,6 +1,7 @@
 <?php
-$trsong = $_GET['id'];
-$postid = "http://localhost/sibmusic/?p=";
-$url = $trsong.$postid;
-echo $url;
+$gdriveid = $_GET['url'];
+$gdrive= "http://sib-design.ir/sibmusic/demo1/?p=";
+$url = $gdrive.$gdriveid;
+header ("Location: $url");
+exit;
 ?>
