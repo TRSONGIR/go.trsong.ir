@@ -1,6 +1,6 @@
 <?php
-$trsong = "http://localhost/sibmusic/?p=";
-$postid = $_GET['id'];
-$url = $trsong.$postid;
+$a = "http://localhost/sibmusic/?p=";
+$b = $_GET['id'];
+$url = $a.$b;
 echo $url;
 ?>
