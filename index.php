@@ -4,8 +4,9 @@ $id= $_GET['url'];
 $url= $tr.$id;
 if($id != '' ){
 header("Location: $url");
-exit;
+exit();
 }else{
 header("Location: http://doman.ir");
+exit();
 }
 ?>
